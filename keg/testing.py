@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 import click
 import click.testing
 import flask
-from flask.ext.webtest import TestApp
+from flask_webtest import TestApp
 import six
 
 from keg import current_app
